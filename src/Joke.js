@@ -14,6 +14,7 @@ function Joke({ id, vote, votes, text }) {
         <button onClick={() => vote(id, -1)}>
           <i className="fas fa-thumbs-down" />
         </button>
+
         {votes}
       </div>
 
